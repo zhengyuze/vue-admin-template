@@ -2,8 +2,8 @@
   "name": "xops-qt",
   "version": "1.2.0",
   "license": "Apache License 2.0",
-  "description": "xops 前端代码",
-  "author": "xufqing",
+  "description": "{{description}}",
+  "author": "{{author}}",
   "scripts": {
     "dev": "cross-env BABEL_ENV=development webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "build": "cross-env NODE_ENV=production env_config=prod node build/build.js",
